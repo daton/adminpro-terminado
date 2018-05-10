@@ -12,6 +12,9 @@ import { AppRoutes } from './app.routes';
 
 import { RegisterComponent } from './login/register.component';
 import { PagesModule } from './pages/pages.module';
+import { IncrementadorComponent } from './components/incrementador/incrementador.component';
+import { FormsModule } from '@angular/forms';
+import { GraficoDonaComponent } from './components/grafico-dona/grafico-dona.component';
 
 
 @NgModule({
@@ -22,7 +25,7 @@ import { PagesModule } from './pages/pages.module';
 
    
   ],
-  imports: [BrowserModule, AppRoutes, PagesModule],
+  imports: [BrowserModule, AppRoutes, PagesModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent]
 })
