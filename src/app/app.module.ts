@@ -15,6 +15,8 @@ import { PagesModule } from './pages/pages.module';
 import { IncrementadorComponent } from './components/incrementador/incrementador.component';
 import { FormsModule } from '@angular/forms';
 import { GraficoDonaComponent } from './components/grafico-dona/grafico-dona.component';
+import { ServiceModule } from './services/service.module';
+
 
 
 @NgModule({
@@ -25,7 +27,7 @@ import { GraficoDonaComponent } from './components/grafico-dona/grafico-dona.com
 
    
   ],
-  imports: [BrowserModule, AppRoutes, PagesModule, FormsModule],
+  imports: [BrowserModule, AppRoutes, PagesModule, FormsModule, ServiceModule],
   providers: [],
   bootstrap: [AppComponent]
 })

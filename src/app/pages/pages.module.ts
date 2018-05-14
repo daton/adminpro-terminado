@@ -11,11 +11,14 @@ import { PAGES_ROUTES } from "./pages.routes";
 import { IncrementadorComponent } from "../components/incrementador/incrementador.component";
 import { ChartsModule } from 'ng2-charts';
 import { GraficoDonaComponent } from "../components/grafico-dona/grafico-dona.component";
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
+
 
 
 @NgModule({
-  declarations: [PagesComponent,Graficas1Component,  DashboardComponent, ProgressComponent, IncrementadorComponent, GraficoDonaComponent],
+  declarations: [PagesComponent,Graficas1Component,  DashboardComponent, ProgressComponent, IncrementadorComponent, GraficoDonaComponent, AccountSettingsComponent],
   exports: [PagesComponent,Graficas1Component,  DashboardComponent, ProgressComponent],
-  imports:[SharedModule, PAGES_ROUTES, FormsModule, ChartsModule]
+  imports:[SharedModule, PAGES_ROUTES, FormsModule, ChartsModule],
+  providers:[]
 })
 export class PagesModule {}

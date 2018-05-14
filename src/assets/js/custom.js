@@ -4,6 +4,8 @@ Author: Wrappixel
 Email: niravjoshi87@gmail.com
 File: js
 */
+//ESta funcion initi_plugins es de nosotros!!!!
+function init_plugins(){
 $(function() {
     "use strict";
     $(function() {
@@ -155,3 +157,4 @@ $(function() {
     });
 
 });
+}
